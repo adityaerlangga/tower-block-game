@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#frame{
+	background-color: #87CEFA;
+	position: absolute;
+	top:50%;
+	left:50%;
+	border: 2px solid #000000;
+	z-index: 1;
+}
+
+#mainCanvas{
+	background: linear-gradient(white, #87CEFA);
+}
+
+.canv{
+	position: absolute;
+	top:50%;
+	left:50%;
+	border: 2px solid #000000; 
+	z-index: 1; 
+}
+
+
+#title{
+	margin-top:40%;
+	font-size: 3vw;
+}
+
+
+.start{
+	margin-left:10%;
+	font-size: 1.5vw;
+}
+
+.selected{
+	background-color: yellow;
+	color: red;
+	font-style: strong;
+	font-weight: bold;
+	font-size: 1.5vw;
+}
+
+.info{
+	position:absolute;
+	font-size: 1.5vw;
+}
+
+.canvasInfo{
+	background-color:white;
+	position:absolute;
+	height:20%;
+	width:100%;
+	font-size: 1.5vw;
+	bottom:0;
+	z-index:2;
+}
+
+#foot{
+	position:absolute;
+	font-size: 1vw;
+	bottom: 0;
+}
+
+#score{
+	font-size: 1.5vw;
+}
+
+#groundCanvas, #levelCanvas, #populationCanvas{
+	z-index:2;
+}
+
+#prepareCanvas{
+	z-index:3;
+}
+
+div#canvas-frame {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.GameCanvas {
+	position: absolute;
+}
+
+#LifeCanvas, #ComboCanvas, #HeightCanvas, #PeopleCanvas{
+	z-index: 5;
+}
